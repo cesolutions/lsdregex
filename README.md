@@ -17,7 +17,8 @@ There are two functions provided within the library. The formatter and and the v
 
     let formattedLSD = formatLSD(lsd);
     
-    //To call the validator, call the checkLSDFormat function. This functino accepts an lsd as a string as the first parameter and an optional boolean to allow null lsds as the second parameter.
+    //To call the validator, call the checkLSDFormat function. This functino accepts an lsd as a string as the 
+    first parameter and an optional boolean to allow null lsds as the second parameter.
     //this function will return true or false if the lsd is formatted correctly.
     
     let valid = checkLSDFormat(lsd, false);
